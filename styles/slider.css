@@ -1,0 +1,50 @@
+#slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 92vw;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+#slider img {
+	width: 100%;
+	filter: blur(1.5px) grayscale(30%);
+}
+
+#title {
+	position: absolute;
+  z-index: 5;
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+#title h1 {
+  font-size: 3.5em;
+}
+
+#title h2 {
+  font-size: 2.5em;
+  font-family: 'Scope One', serif;
+  letter-spacing: 3px;
+}

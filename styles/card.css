@@ -1,0 +1,147 @@
+.soins {
+	padding-top: 50px;
+	width: 93vw;
+	height: 540px;
+	margin: auto;
+	display: grid;
+  	grid-template-columns: 1fr 320px 320px 320px 1fr;
+  	grid-template-rows: 25px 500px 25px;
+  	grid-column-gap: 50px;
+}
+
+#left {
+	grid-column: 2 /span 1;
+	grid-row: 2 /span 1;
+}
+
+#middle {
+	grid-column: 3 /span 1;
+	grid-row: 2 /span 1;
+}
+
+#right {
+	grid-column: 4 /span 1;
+	grid-row: 2 /span 1;
+}
+
+.card {
+	width: 320px;
+	height: 500px;
+	background-color: #d2fcfc;
+	border-radius: 5px;
+	box-shadow: -2px 2px 2px rgba(85,85,85,0.4) ,2px 2px 2px rgba(85,85,85,0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card p {
+	padding: 17px;
+}
+
+.card h2 {
+	font-family: 'Scope One', serif;
+}
+
+.fond {
+	background-size: cover;
+	width: 96%;
+	height: 180px;
+	border-radius: 3px;
+	box-shadow: -2px 4px 2px rgba(25,25,25,0.4), 2px 4px 2px rgba(25,25,25,0.4);
+}
+
+.cardHoraire {
+	width: 55vw;
+	background-color: #d2fcfc;
+	border-radius: 5px;
+	box-shadow: -2px 2px 2px rgba(85,85,85,0.4) ,2px 2px 2px rgba(85,85,85,0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.cardHoraire p {
+	padding: 7px;
+}
+
+.cardHoraire h2 {
+	font-family: 'Scope One', serif;
+}
+
+.cardHoraire a{
+	text-decoration: none;
+}
+
+.fondHoraire {
+	background-size: cover;
+	width: 96%;
+	height: 240px;
+	border-radius: 3px;
+	box-shadow: -2px 4px 2px rgba(25,25,25,0.4), 2px 4px 2px rgba(25,25,25,0.4);
+}
+
+#horaire {
+	width: 80%;
+	height: 25%;
+	margin-bottom: 15px;
+	margin: auto;
+}
+
+.tableau {
+	width: 80%;
+	margin: 25px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+	grid-template-rows: 50px 100px;
+}
+
+.tableau p {
+	vertical-align: center;
+}
+
+.tel h2{
+	margin: 0px;
+}
+
+.tel p{
+	margin: 0px;
+}
+.tel {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.adresse p{
+	padding: 0px;
+}
+
+.adresse {
+	margin-bottom: 15px;
+}
+
+.bandage {
+	background-image: url('../images/bandage.jpg');
+	background-position: 50% 65%;
+}
+
+.injection {
+	background-image: url('../images/injection.jpg');
+	background-position: 50% 65%;
+}
+
+.oscultation {
+	background-image: url('../images/oscultation.jpg');
+	background-position: 90% 25%;
+}
+
+.rdv {
+	background-image: url('../images/rdv.jpg');
+	background-position: 50% 45%;
+}
+
+

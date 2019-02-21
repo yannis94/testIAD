@@ -1,0 +1,66 @@
+/*imports elements*/
+@import url('styles/slider.css');
+@import url('styles/navbar.css');
+@import url('styles/card.css');
+
+/*CSS*/
+
+body {
+	margin: 0px;
+	padding-left: 7vw;
+	background-color: #ebf7f7;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Scope One', serif;
+	letter-spacing: 3px;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+}
+
+#maps {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+iframe {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#btn {
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #60a5a5;
+	color: white;
+	font-family: 'Scope One', serif;
+	letter-spacing: 3px;
+	border-style: none;
+	margin: 10px;
+	margin-bottom: 30px;
+	box-shadow: -2px 4px 2px rgba(85,85,85,0.4) ,2px 4px 2px rgba(85,85,85,0.4);
+	transition: 0.5s;
+}
+
+#btn:hover {
+	padding: 8px;
+	margin: 12px;
+	margin-bottom: 32px;
+	box-shadow: -2px 2px 2px rgba(85,85,85,0.4) ,2px 2px 2px rgba(85,85,85,0.4);
+}
+
+.separated {
+	height: 1px;
+	width: 85%;
+	background-color: grey;
+	border-radius: 25%;
+}
+
+
